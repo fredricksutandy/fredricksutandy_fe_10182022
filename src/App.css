@@ -1,0 +1,112 @@
+.card{
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.card-container{ 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem; 
+  padding: 30px;
+}
+
+.login{
+  width: 100%;min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.d-flex{
+  display:flex;
+}
+
+.d-flex input{
+  width: 45% !important;
+}
+
+.login-input{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+input, textarea{
+  padding: 12px;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+
+.login-button{
+  padding: 10px;
+  background: #2470d4;
+  border: 0;
+  color: white;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.error-placeholder{
+  color: red;
+}
+
+.pagination-container{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+
+.pagination-container a{
+  text-decoration: none; 
+  color: black;
+  cursor: pointer
+}
+
+.btn-primary{
+  padding: 10px;
+  margin: 0;
+  background: #2470d4;
+  border: 0;
+  color: white;
+  width: 20%;
+  border-radius: 3px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.delete-button{
+  background: #e84943;
+  color: white;
+  margin-right: 10px;
+}
+
+.update-button{
+  background: #e8e543;
+  color: black;
+}
+
+.update-button, .delete-button{
+  padding: 6px;
+  border: 0;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.card-name{
+  font-weight:bold;
+  font-size:24px;
+  margin-bottom:14px;
+}
+
+.justify-content-end{justify-content:flex-end!important}

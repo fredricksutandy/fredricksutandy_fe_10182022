@@ -1,0 +1,22 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    background-color: #00295e;
+    color: white;
+    align-items: center;
+}
+
+.brand, .logout{
+    text-decoration: none;
+    color: white;
+}
+
+.brand{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logout{
+
+}
